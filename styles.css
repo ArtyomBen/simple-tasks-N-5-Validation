@@ -1,0 +1,12 @@
+.required-error {
+    color: red;
+}
+
+.error-method{
+    text-align: center;
+    color: red;
+}
+
+.default-style {
+    color: black;
+}
