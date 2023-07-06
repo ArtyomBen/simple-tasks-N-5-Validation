@@ -4,7 +4,6 @@ $name = $lastName = $email = $tel = $password = $gender = "";
 $nameErr = $lastNameErr = $emailErr = $telErr = $passwordErr = $genderErr = "";
 $phoneRegex = "/^(\+374(3|5|7|9))\d{7}$/";
 $nameRegex = "/^[a-zA-z]*$/";
-$flag = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
    if (empty ($_POST["name"])) {
